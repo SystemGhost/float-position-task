@@ -1,0 +1,123 @@
+#bookmark_1 {
+	width: 109px;
+	height: 33px;
+	background: #f68e56;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 6;
+	top: 38px;
+  	left: 845px;
+  	border-radius: 0 10px 10px 0;
+}
+
+#information-box {
+	width: 458px;
+	height: 679px;
+	font: 12px "Myriad Pro";
+  	margin: 38px 0 0 33px;
+}
+
+.main-text {
+	height: 35px;
+	font: 20px "Myriad Pro";
+}
+
+.clear {
+    clear:both
+}
+
+#rectangle_1 {
+	width: 522px;
+	height: 744px;
+	background: #ebebeb;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 5;
+	top: 0px;
+  	left: 350px;
+}
+
+#img_1 {
+	float: left;
+	padding: 2px;
+	margin: 0 6px 4px 0;
+}
+
+#img_2 {
+	float: right;
+	padding: 2px;
+	margin: 0 0 4px 6px;
+}
+
+.img-src {
+	margin: 0 0 15px 0;
+	width: 193px;
+	height: 87px;
+}
+
+.img-src:nth-child(2) {
+	margin: 15px 0 0 0;
+}
+
+#left-col {
+	width: 194px;
+	float: left;
+}
+
+#right-col {
+	width: 194px;
+	float: right;
+}
+
+
+#bookmark_2 {
+	width: 97px;
+	height: 33px;
+	background: #39b54a;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 4;
+	top: 61px;
+  	left: 844px;
+  	border-radius: 0 10px 10px 0;
+}
+
+#rectangle_2 {
+	width: 522px;
+	height: 744px;
+	background: #cccccc;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 3;
+	top: 19px;
+  	left: 369px;
+}
+
+#bookmark_3 {
+	width: 97px;
+	height: 33px;
+	background: #00aeef;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 2;
+	top: 86px;
+  	left: 831px;
+  	border-radius: 0 10px 10px 0;
+}
+
+#rectangle_3 {
+	width: 522px;
+	height: 744px;
+	background: #acacac;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 1;
+	top: 38px;
+  	left: 388px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 9px;
+	vertical-align: middle;
+}
