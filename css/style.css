@@ -1,21 +1,56 @@
-#bookmark_1 {
+.wrapper {
+	width: 600px;
+	height: 750px;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -10%);
+}
+
+.social {
+	width: 88px;
+	height: 70px;
+	position: fixed;
+	left: 100%;
+	top: 100%;
+	transform: translate(-100%, -100%);
+	border: 1px solid black;
+	background: #fbaf5d;
+}
+
+
+
+.rect {
+	width: 522px;
+	height: 744px;
+	border: 1px solid black;
+	position: absolute;
+}
+
+
+
+.bookmark {
+	border: 1px solid black;
+	position: absolute;
+	border-radius: 0 10px 10px 0;
+}
+
+.bookmark_1 {
 	width: 109px;
 	height: 33px;
 	background: #f68e56;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 6;
 	top: 38px;
-  	left: 845px;
-  	border-radius: 0 10px 10px 0;
+  	left: 495px;
 }
 
-#information-box {
+.information-box {
 	width: 458px;
 	height: 679px;
 	font: 12px "Myriad Pro";
   	margin: 38px 0 0 33px;
 }
+
+
 
 .main-text {
 	height: 35px;
@@ -26,24 +61,17 @@
     clear:both
 }
 
-#rectangle_1 {
-	width: 522px;
-	height: 744px;
+.rectangle_1 {
 	background: #ebebeb;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 5;
-	top: 0px;
-  	left: 350px;
 }
 
-#img_1 {
+.img_1 {
 	float: left;
 	padding: 2px;
 	margin: 0 6px 4px 0;
 }
 
-#img_2 {
+.img_2 {
 	float: right;
 	padding: 2px;
 	margin: 0 0 4px 6px;
@@ -59,65 +87,59 @@
 	margin: 15px 0 0 0;
 }
 
-#left-col {
+.left-col {
 	width: 194px;
 	float: left;
 }
 
-#right-col {
+.right-col {
 	width: 194px;
 	float: right;
 }
 
 
-#bookmark_2 {
+.bookmark_2 {
 	width: 97px;
 	height: 33px;
 	background: #39b54a;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 4;
 	top: 61px;
-  	left: 844px;
-  	border-radius: 0 10px 10px 0;
+  	left: 494px;
 }
 
-#rectangle_2 {
-	width: 522px;
-	height: 744px;
+.rectangle_2 {
 	background: #cccccc;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 3;
 	top: 19px;
-  	left: 369px;
+  	left: 19px;
 }
 
-#bookmark_3 {
+.bookmark_3 {
 	width: 97px;
 	height: 33px;
 	background: #00aeef;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 2;
 	top: 86px;
-  	left: 831px;
-  	border-radius: 0 10px 10px 0;
+  	left: 481px;
 }
 
-#rectangle_3 {
-	width: 522px;
-	height: 744px;
+.rectangle_3 {
 	background: #acacac;
-	border: 1px solid black;
-	position: absolute;
-	z-index: 1;
 	top: 38px;
-  	left: 388px;
+  	left: 38px;
 }
 
-#footer {
+.footer {
 	text-align: center;
 	font-size: 9px;
 	vertical-align: middle;
+}
+
+.share-icons {
+	padding-left: 7px;
+	float: left;
+	width: 77px;
+}
+
+.share-text {
+	height: 32px;
+	padding-left: 14px;
+	font: 16px "Myriad Pro";
 }
